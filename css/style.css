@@ -8,3 +8,110 @@ a{
     color: black; /* altera a cor de todos os links das páginas */
 }
 
+/*----------------------------------------------------------------
+ header 
+ -----------------------------------------------------------------*/
+ 
+ header{
+  padding: 3vw 10vw 3vw 10vw;
+ }
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li{
+  margin: 0 10px 0 10px;
+}
+
+header nav ul li.atual a{
+  color: #fb2e86;
+}
+
+/*--------------------------------------------------------------
+banner
+---------------------------------------------------------------*/
+
+section.banner {
+  background-color: #f2f0ff;
+  display: flex;
+padding:  3vw 10vw 3vw 10vw;
+
+}
+
+section.banner div p.highlight{
+  font-weight: bold;
+  color: #fb2e86;
+  font-size: 1.1rem;
+  padding: 10px 0 0 0 ;
+}
+
+section.banner div h2{
+  font-size: 3.5rem;
+  margin: 2vw 0 3vw 0;
+  font-weight: bolder;
+}
+
+section.banner div p{
+  font-size: 1.1rem;
+  color: #8A8FB9;
+}
+section.banner p button{
+  background-color: #fb2e86;
+  color: #ffff;
+  font-size: 1.1rem;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5%;
+  margin: 4vw 0 0;
+}
+
+section.banner div.imagem{
+  width: 30%;
+  margin: 0 0 0 10%;
+}
+
+/*----------------------------------------------------------
+produtos
+-----------------------------------------------------------*/
+
+section.produtos {
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+section.produtos h2{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a0b5b;
+  font-weight: bolder;
+  margin: 0 0 3vw 0;
+}
+
+section.produtos ul {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ 
+}
+section.produtos ul li{
+  width: 30%;
+
+}
+
+section.produtos ul li p{
+ background-color: #f7f7f7;
+text-align: center;
+}
+
+section.produtos ul li h3{
+  color: #1a0b5b;
+  margin: 29px 0 2.7vw 0
+  ;
+  font-weight: 520;
+}
