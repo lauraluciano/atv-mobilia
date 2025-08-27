@@ -115,3 +115,57 @@ section.produtos ul li h3{
   ;
   font-weight: 520;
 }
+
+/* NEWLATER ---------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+section.newlater { 
+ padding: 5vw 31vw ;
+ background: url(../src/images/back-section-update.png);
+ background-position: center;
+ text-align: center;
+}
+section.newlater h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+   color: #1a0b5b;
+   margin: 2vw;
+}
+section.newlater p button {
+ background-color: #fb2e86;
+  color: #ffff;
+  font-size: 1.1rem;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5%;
+  margin: 1.5vw 0 0;
+}
+
+/* FOOTER ------------------------------------------------------------
+-----------------------------------------------------------------------*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw;
+  background-color: #eeeffb;
+}
+
+footer div h2 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+footer div p {
+  color: #8A8FB9;
+  margin: 10px 0
+
+}
+footer div h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+footer div ul li a {
+ color: #8A8FB9;
+ line-height: 2rem;
+}
